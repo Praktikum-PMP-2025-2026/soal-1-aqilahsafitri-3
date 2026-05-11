@@ -36,16 +36,16 @@ int main(){
     printf("DEGREE %d %d\n",i, degree[i]);
 }
 
-    printf("MAX_VERTEX %d", max_vertex);
+    printf("MAX_VERTEX %d\n", max_vertex);
     
-    if(isolated ==0){
-        printf("ISOLATED NONE\n");}
-    else{
-    printf("ISOLATED\n");}
     for (int i = 0; i < N; i++) {
         if (degree[i] == 0) {
+            printf("ISOLATED");
             printf(" %d", i);
             isolated++;}}
+    
+    if(isolated == 0){
+        printf("ISOLATED NONE");}
     
     return 0;
 }
