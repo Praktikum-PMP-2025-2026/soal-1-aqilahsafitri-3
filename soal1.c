@@ -39,9 +39,9 @@ int main(){
     printf("MAX_VERTEX %d", max_vertex);
     
     if(isolated ==0){
-        printf("\nISOLATED NONE");}
+        printf("ISOLATED NONE");}
     else{
-    printf("\nISOLATED");}
+    printf("ISOLATED\n");}
     for (int i = 0; i < N; i++) {
         if (degree[i] == 0) {
             printf(" %d", i);
