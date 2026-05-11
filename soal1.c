@@ -45,7 +45,7 @@ int main(){
             isolated++;}
         }
     if(isolated == 0){
-        printf("NONE");}
+        printf(" NONE");}
 
     return 0;
 }
