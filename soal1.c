@@ -38,12 +38,13 @@ int main(){
 
     printf("MAX_VERTEX %d\n", max_vertex);
 
-    printf("ISOLATED");
+    if(isolated!= 0){
+        printf("ISOLATED");
     for (int i = 0; i < N; i++) {
         if (degree[i] == 0) {
             printf(" %d", i);
             isolated++;}
-        }
+        }}
     if(isolated == 0){
         printf("ISOLATED NONE");}
 
