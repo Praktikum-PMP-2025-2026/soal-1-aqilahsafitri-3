@@ -39,7 +39,7 @@ int main(){
     printf("MAX_VERTEX %d", max_vertex);
     
     if(isolated ==0){
-        printf("ISOLATED NONE");}
+        printf("ISOLATED NONE\n");}
     else{
     printf("ISOLATED\n");}
     for (int i = 0; i < N; i++) {
