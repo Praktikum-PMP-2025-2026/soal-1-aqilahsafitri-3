@@ -44,9 +44,7 @@ int main(){
         if (degree[i] == 0) {
             printf(" %d", i);
             isolated++;}
+        else {printf("NONE");}
         }}
-    if(isolated == 0){
-        printf("ISOLATED NONE");}
-
     return 0;
 }
