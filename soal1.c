@@ -49,3 +49,5 @@ int main(){
 
     return 0;
 }
+
+// https://www.geeksforgeeks.org/c/multidimensional-arrays-in-c/
